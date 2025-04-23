@@ -270,7 +270,7 @@ appium -v
 
 ### 9. Adding the apk in Framework
 - Add the apk under the path `src/test/resources/apps`.
-- The name of the apk should be `app-release.apk`.
+- The name of the apk should be `latest.apk`.
 
 ### 10. Running the Tests
 - To run tests using TestNG, execute the following command:
