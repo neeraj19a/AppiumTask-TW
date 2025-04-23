@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Android Test Suite" parallel="tests" thread-count="1">
+    <listeners>
+        <listener class-name="com.qa.runners.RetryAnnotationTransformer"/>
+    </listeners>
+    <test name="TrustWallet Tests">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="deviceName" value="Pixel_4"/>
+        <parameter name="systemPort" value="10001"/>
+        <classes>
+            <class name="com.qa.runners.TrustWalletTestRunner"/>
+        </classes>
+    </test>
+</suite> 

@@ -1,0 +1,94 @@
+# Mobile Application Binaries
+*.apk
+*.aab
+*.ipa
+src/test/resources/apps/
+
+# Compiled class files
+*.class
+target/
+build/
+
+# Log files
+*.log
+logs/
+*.log.*
+Server.log
+
+# Reports
+allure-results/
+allure-report/
+test-output/
+extent-reports/
+emailable-report/
+screenshots/
+
+# Maven
+.mvn/
+!**/src/main/**
+!**/src/test/**
+.flattened-pom.xml
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# VS Code
+.vscode/
+.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Appium
+node_modules/
+.appium/
+wd/
+Android_*/
+iOS_*/
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Environment files
+.env
+.env.local
+env.sh
+
+# Mobile device farm files
+test_spec.yaml
+
+# Keep empty app directory structure but not the binaries
+!src/test/resources/apps/.gitkeep
